@@ -12,7 +12,13 @@ sumArray([1, 2, 3, 4, 5]); // 15
 
 function sumArray(arr) {
   // Your code here 
-}
+    if(arr.length === 0){
+      return 0
+    }
+    let sumVar = arr.pop();
+    return sumVar + sumArray(arr)
+    }
+
   
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
