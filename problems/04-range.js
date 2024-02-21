@@ -13,7 +13,7 @@ range(7, 6); // []
 
 function range(start, end) {
   // Your code here 
-  if (start >= end) return [];
+  if (start > end) return [];
 
   let arr = [start];
   start++
