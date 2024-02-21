@@ -24,6 +24,13 @@ function sumToN(n) {
   return sum; 
 }
 
+// function sumToN(n) {
+//   // Your code here 
+//   if (n < 0) return null;
+//   if (n <= 1) return n;
+
+//   return n + sumToN(n - 1)
+// }
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
